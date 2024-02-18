@@ -11,11 +11,11 @@
         },
         "@schematics/angular:component": {
           "skipTests": true,
-          "standalone": false
+          "standalone": true
         },
         "@schematics/angular:directive": {
           "skipTests": true,
-          "standalone": false
+          "standalone": true
         },
         "@schematics/angular:guard": {
           "skipTests": true
@@ -25,7 +25,7 @@
         },
         "@schematics/angular:pipe": {
           "skipTests": true,
-          "standalone": false
+          "standalone": true
         },
         "@schematics/angular:resolver": {
           "skipTests": true
@@ -53,7 +53,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@ngneat/hot-toast/src/styles/styles.css"
             ],
             "scripts": []
           },

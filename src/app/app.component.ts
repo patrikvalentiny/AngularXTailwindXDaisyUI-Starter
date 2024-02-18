@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
+import {HotToastService} from "@ngneat/hot-toast";
 
 @Component({
     selector: 'app-root',
@@ -8,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  private readonly toast: HotToastService = inject(HotToastService);
+
+  btnClick() {
+    this.toast.show('Hello world');
+  }
 }
