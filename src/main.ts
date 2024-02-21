@@ -2,7 +2,8 @@ import { importProvidersFrom } from '@angular/core';
 import { AppComponent } from './app/app.component';
 import { AppRoutingModule } from './app/app-routing.module';
 import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
-import {provideHotToastConfig} from "@ngneat/hot-toast";
+import {provideHotToastConfig} from "@ngxpert/hot-toast";
+
 
 
 bootstrapApplication(AppComponent, {

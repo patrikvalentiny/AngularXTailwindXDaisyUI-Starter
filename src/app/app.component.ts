@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import {HotToastService} from "@ngneat/hot-toast";
+import {HotToastService} from "@ngxpert/hot-toast";
 
 @Component({
     selector: 'app-root',
